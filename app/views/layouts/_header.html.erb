@@ -14,13 +14,19 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><%= link_to "CV", '#' %></li>
-        <li><%= link_to "Technologies", "#" %></li>
-        <li><%= link_to "Contact", "#" %></li>
+        <li><%= link_to "CV", cv_path %></li>
+        <li><%= link_to "Technologies", technologies_path %></li>
+        <li><%= link_to "Contact", contact_path %></li>
         
       </ul>
       
       
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
+</nav>
+
+<nav class="navbar navbar-default navbar-fixed-bottom">
+  <div class="container">
+    <p>Site built by <%= link_to "Mónica Seco", 'https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile' %> @2015</p>
+  </div>
 </nav>
