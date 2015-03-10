@@ -154,7 +154,7 @@ a:after {
 
 /* Header Wrap */
 #headerwrap {
-	background: url(/assets/header-bg.jpg) no-repeat center top;
+	background: image_url('header-bg.jpg') no-repeat center top;
 	margin-top: 60px;
 	padding-top:140px;
 	text-align:center;
