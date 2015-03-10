@@ -126,7 +126,7 @@
 						<script>
 							var doughnutData = [
 									{
-										value: 70,
+										value: 60,
 										color:"#1abc9c"
 									},
 									{
@@ -144,11 +144,11 @@
 						<script>
 							var doughnutData = [
 									{
-										value: 90,
+										value: 50,
 										color:"#1abc9c"
 									},
 									{
-										value : 10,
+										value : 50,
 										color : "#ecf0f1"
 									}
 								];
@@ -162,11 +162,11 @@
 						<script>
 							var doughnutData = [
 									{
-										value: 65,
+										value: 30,
 										color:"#1abc9c"
 									},
 									{
-										value : 35,
+										value : 70,
 										color : "#ecf0f1"
 									}
 								];
@@ -181,11 +181,11 @@
 						<script>
 							var doughnutData = [
 									{
-										value: 80,
+										value: 40,
 										color:"#1abc9c"
 									},
 									{
-										value : 20,
+										value : 60,
 										color : "#ecf0f1"
 									}
 								];
@@ -210,6 +210,25 @@
 								var myDoughnut = new Chart(document.getElementById("photoshop").getContext("2d")).Doughnut(doughnutData);
 						</script>
 					</div>
+
+					<div class="col-lg-3 centered">
+						<canvas id="illustrator" height="130" width="130" style="width: 130px; height: 130px;"></canvas>
+						<p>Git</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 25,
+										color:"#1abc9c"
+									},
+									{
+										value : 75,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("illustrator").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
 					
 			</div><!--/.row -->
 			<br>
@@ -224,20 +243,18 @@
 				</div>
 
 				<div class="col-lg-6 col-lg-offset-1">
-					<p><i>This application was built during my training at Stuk platform and it was built using the Ruby On Rails framework.
-						Its deployement was made using the <%= link_to "Heroku", 'https://www.heroku.com/' %> cloud.</i></p>
+					<p><i>This application was built during my training on the Stuk platform. It was developed using the Ruby On Rails framework and deployed using the <%= link_to "Heroku", 'https://www.heroku.com/' %> cloud.</i></p>
 				</div>
 
-				<div class="image">
-					
-					<p><%= link_to image_tag("Mpage_stukdo.png"), 'http://desolate-castle-3365.herokuapp.com/' %></p>
+				<div class="image">					
+					<p><%= link_to image_tag("Mpage_stukdo.png",:style => "width:600px;display: block; margin: 0 auto;"), 'http://desolate-castle-3365.herokuapp.com/' %></p>
+					<h6 class="text-center">Used gems: 'twitter-bootstrap-rails', 'font-awesome-rails', 'simple_form', 'devise','auto_html','rails_12factor' and 'pg'</h6>
 				</div>
-
+		<br/>
 				<div class="col-lg-6 col-lg-offset-3">
-
-					<p>To try this application please use the credentials below.</p>
-					<p><strong>User:</strong><i> test.stukdo@gmail.com</i></p>
-					<p><strong>Password:</strong><i> test1234</i></p>
+					<p>Try this application by using the credentials below.<br/>
+					<strong>User:</strong><i> teste.teste@.com</i><br/>
+					<strong>Password:</strong><i> 1234567890</i></p>
 				</div>
 		
 		</div><!--/.row -->
@@ -261,10 +278,8 @@
 				</div>
 				<div class="col-lg-3">
 					<p><sm>SOCIAL LINKS</sm></p>
-					<p>
-						
+					<p>						
 						<%= link_to '<i class="icon-linkedin"></i>'.html_safe, "https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile" %>
-
 					</p>
 				</div>
 			</div><!--/.row -->
@@ -275,6 +290,5 @@
 	<div id="c">
 		<div class="container">
 			<p>Created by <strong>Mónica Seco</strong> @2015</p>
-		
 		</div>
 	</div>
