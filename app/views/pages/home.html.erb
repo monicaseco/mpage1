@@ -105,7 +105,17 @@
 				<div class="col-lg-6 col-lg-offset-3">
 					<p><t>Ruby On Rails</t><br>
 						<%= link_to "Stuk.io", 'https://stuk.io/en/courses/2-sided-marketplace' %><br>
-						<i>Learning how to build a marketplace using Ruby on Rails</i>
+						<i>Learned how to build a marketplace using Ruby on Rails</i>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>2015</sm><br></p>
+					</p>
+				</div>
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>Ruby On Rails</t><br>
+						<%= link_to "Stuk.io", 'https://stuk.io/en/courses/social-network' %><br>
+						<i>Learning how to build a social network using Ruby on Rails</i>
 					</p>
 				</div>
 				<div class="col-lg-3">
@@ -243,10 +253,10 @@
 				</div>
 
 				<div class="col-lg-6 col-lg-offset-1">
-					<p><i>This application was built during my training on the Stuk platform. It was developed using the Ruby On Rails framework and deployed using the <%= link_to "Heroku", 'https://www.heroku.com/' %> cloud.</i></p>
+					<p><i>This application was built during my training on the Stuk.io platform. It was developed using the Ruby On Rails framework and deployed using the <%= link_to "Heroku", 'https://www.heroku.com/' %> cloud.</i></p>
 				</div>
 
-				<div class="image">					
+				<div class="image_stukdo">					
 					<p><%= link_to image_tag("Mpage_stukdo.png",:style => "width:600px;display: block; margin: 0 auto;"), 'http://desolate-castle-3365.herokuapp.com/' %></p>
 					<h6 class="text-center">Used gems: 'twitter-bootstrap-rails', 'font-awesome-rails', 'simple_form', 'devise','auto_html','rails_12factor' and 'pg'</h6>
 				</div>
@@ -255,11 +265,34 @@
 					<p>Try this application by using the credentials below.<br/>
 					<strong>User:</strong><i> teste@teste.com</i><br/>
 					<strong>Password:</strong><i> 1234567890</i></p>
-				</div>
+				</div>		
+
+				
 		
 		</div><!--/.row -->
 		<br>
 		<br>
+
+		<div class="row">
+			<div class="col-lg-2 col-lg-offset-1">
+					<h4><strong>Market Place</strong></h4>
+				</div>
+
+				<div class="col-lg-6 col-lg-offset-1">
+					<p><i>Based on the Ruby On Rails framework and deployed using the <%= link_to "Heroku", 'https://www.heroku.com/' %> cloud, this application was built during my training on the Stuk.io platform. It as the purpose of simulating a digital book store.</i></p>
+				</div>
+
+				<div class="image_estuk">					
+					<p><%= link_to image_tag("Mpage_estuk.png",:style => "width:600px;display: block; margin: 0 auto;"), 'http://infinite-basin-7580.herokuapp.com//' %></p>
+					<h6 class="text-center">Used gems: 'twitter-bootstrap-rails', 'simple_form', 'devise','cancan','paperclip', 'dotenv-rails', 'aws-sdk', 'friendly_id', 'stripe', 'aasm', rails_12factor' and 'pg'</h6>
+				</div>
+		<br/>
+				<div class="col-lg-6 col-lg-offset-3">
+					<p>Try this application by using the credentials below.<br/>
+					<strong>User:</strong><i> teste@teste.com</i><br/>
+					<strong>Password:</strong><i> 1234567890</i></p>
+				</div>		
+		</div><!--/.row -->
 	</div>
 
 	<section id="contact" name="contact"></section>
@@ -280,6 +313,9 @@
 					<p><sm>SOCIAL LINKS</sm></p>
 					<p>						
 						<%= link_to '<i class="icon-linkedin"></i>'.html_safe, "http://www.linkedin.com/in/monicaseco" %>
+					</p>
+					<p>
+						<%= link_to '<i class="icon-github"></i>'.html_safe, "http://github.com/monicaseco" %>
 					</p>
 				</div>
 			</div><!--/.row -->
