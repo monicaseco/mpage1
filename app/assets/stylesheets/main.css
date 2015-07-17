@@ -184,7 +184,7 @@ a:after {
 	color: white;
 }
 
-/* Intnro Wrap */
+/* Intro Wrap */
 
 #intro {
 	background: #2c3e50;
@@ -204,6 +204,10 @@ a:after {
 	vertical-align: middle;
 }
 
+#intro h1 {
+	color: white;
+	text-transform: uppercase;
+}
 
 #skillswrap {
 	background: #2c3e50;
